@@ -6,7 +6,7 @@ slug: /holdouts
 
 Holdouts measure the aggregate impact of multiple features. A "holdout" is a group of users that are held back from a set of features to measure the aggregate impact of this feature set. While each A/B test or experiment you run compares control and test groups for that feature, a holdout compares a ‘global’ control group with users who have been exposed to a subset of the features. 
 
-## How to use Holdouts
+## How to create Holdouts
 1.	To create a new holdout, navigate to the Holdouts section on the Statsig console: https://console.statsig.com/ 
 2.	Click the Create New button and enter the name and description of the holdout that you want to create. 
 3.	You can choose to either create a global or a selected holdout. A global holdout captures the aggregate impact of all features developed after the holdout began. A selected holdout captures the aggregate impact of a specific selection of features that you want to hold off. 
